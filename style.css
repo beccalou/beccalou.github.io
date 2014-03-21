@@ -9,6 +9,10 @@ h1 {
   color: tomato;
 }
 
+h2 {
+  color: black;
+}
+
 h4 {
   color: grey;
 
@@ -23,6 +27,3 @@ ul {
   color: grey;
 }
 
-.projects {
-  color: black;
-}
