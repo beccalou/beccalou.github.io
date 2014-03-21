@@ -14,7 +14,15 @@ h4 {
 
 }
 
+p {
+  color: tomato;
+}
+
 ul {
   list-style-type: none;
   color: grey;
+}
+
+.projects {
+  color: black;
 }
