@@ -29,3 +29,7 @@ ul {
   color:  #33334C;
 }
 
+a:link {
+  text-decoration: none;
+}
+
