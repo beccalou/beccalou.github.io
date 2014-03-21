@@ -1,1 +1,10 @@
+body {
+  background: url(bb.jpg);
+  background-size: cover;
+  font-family: Times;
+  color: white;
+}
 
+h1 {
+  color: green;
+}
