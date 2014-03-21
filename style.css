@@ -1,11 +1,19 @@
 body {
   background: url(bb.jpg);
   background-size: cover;
-  font-family: Times;
+  font-family: 'Source Sans Pro', sans-serif;
   color: white;
 }
 
 h1 {
-  font-family: 'Source Sans Pro', sans-serif;
   color: tomato;
+}
+
+h4 {
+  color: grey;
+
+}
+
+ul {
+  color: grey;
 }
