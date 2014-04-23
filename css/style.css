@@ -1,0 +1,322 @@
+body {
+  background-color: dimgray;
+  font-family: lato, sans-serif;
+  font-size: 200;
+  font-style: normal;
+  color: papayawhip;
+}
+
+p {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+a {
+  position: absolute;
+  top: 80px;
+  text-decoration: none;
+  color: black;
+  vertical-align: bottom;
+  font-weight: 500;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+.circles {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+}
+
+.hr-position{
+  /*position:absolute;
+  top: -280px;*/
+}
+
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.border {
+  height: 700px;
+  border-right: 1px solid silver;
+  position: absolute;
+  left: 350px;
+  top: 275px;
+}
+
+.border-projects {
+  height: 700px;
+  border-right: 1px solid silver;
+  position: absolute;
+  left: 845px;
+  top: 275px;
+}
+
+.container {
+  margin-top: 30px;
+  margin-left: 175px;
+}
+
+.align {
+  display: inline-block;
+}
+
+.circle-dotted-about {
+  height: 145px;
+  width: 145px;
+  border-radius: 75px;
+  border: 2px dotted goldenrod;
+  margin: 110px;
+}
+
+.circle-dotted-about:hover {
+  background-color:darkturquoise;
+}
+
+.about-description-intro {
+  position: absolute;
+  top: 230px;
+  left: 135px;
+  width: 200px;
+  font-family: lato, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  color: darkturquoise;
+}
+
+.about-description {
+  position: absolute;
+  top: 315px;
+  left: 135px;
+  width: 200px;
+  font-family: lato, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.about-description-outro {
+  position: absolute;
+  top: 650px;
+  left: 135px;
+  width: 250px;
+  font-family: lato, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  color: darkturquoise;
+}
+
+.project-one {
+  position: absolute;
+  top: 245px;
+  left: 410px;
+  height: 125px;
+  width: 375px;
+  background-image: url("../images/camera.png");
+  background-repeat: no-repeat;
+}
+
+.project-one:hover {
+  background-image: url("Project One.png");
+}
+
+.project-one-title {
+  position: absolute;
+  top: 275px;
+  left: 470px;
+  height: 125px;
+  width: 375px;
+  color: black;
+  font-size: 100;
+  font-style: normal;
+}
+
+.project-one-description {
+  position: absolute;
+  top: 295px;
+  left: 470px;
+  height: 125px;
+  width: 300px;
+  font-size: 17px;
+  font-weight: 100;
+  color: papayawhip;
+}
+
+.project-two {
+  position: absolute;
+  top: 400px;
+  left: 410px;
+  height: 145px;
+  width: 375px;
+  background-image: url("../images/hanger.png");
+  background-repeat: no-repeat;
+}
+
+.project-two:hover {
+  background-image: url("Project Three.png");
+}
+
+.project-two-title {
+  position: absolute;
+  top: 425px;
+  left: 470px;
+  height: 125px;
+  width: 375px;
+  color: black;
+}
+
+.project-two-description {
+  position: absolute;
+  top: 445px;
+  left: 470px;
+  height: 125px;
+  width: 300px;
+  font-size: 17px;
+  font-weight: 100;
+  color: papayawhip;
+}
+
+.project-three {
+  position: absolute;
+  top: 540px;
+  left: 410px;
+  height: 145px;
+  width: 375px;
+  background-image: url("../images/hospital.png");
+  background-repeat: no-repeat;
+}
+
+.project-three-title {
+  position: absolute;
+  top: 570px;
+  left: 470px;
+  height: 125px;
+  width: 375px;
+  color: black;
+}
+
+.project-three-description {
+  position: absolute;
+  top: 590px;
+  left: 470px;
+  height: 125px;
+  width: 300px;
+  font-size: 17px;
+  font-weight: 100;
+  color: papayawhip;
+}
+
+.project-three:hover {
+  background-image: url("Project Two.png");
+}
+
+.circle-dotted-projects {
+  height: 145px;
+  width: 145px;
+  border-radius: 75px;
+  border: 2px dotted goldenrod;
+  margin: 110px;
+}
+
+
+.circle-dotted-projects:hover {
+  background-color:darkgoldenrod;
+}
+
+.circle-dotted-work {
+  height: 145px;
+  width: 145px;
+  border-radius: 100px;
+  border: 2px dotted goldenrod;
+}
+
+.circle-dotted-work:hover {
+  background-color:darkgoldenrod;
+}
+
+.tech-skills-intro {
+  position: absolute;
+  top: 245px;
+  left: 975px;
+  font-family: lato, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  color: darkturquoise;
+}
+
+.tech-skills-backend {
+  position: absolute;
+  top: 300px;
+  left: 900px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: papayawhip;
+}
+
+.tech-skills-frontend {
+  position: absolute;
+  top: 350px;
+  left: 900px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: papayawhip;
+}
+
+.other-skills {
+  position: absolute;
+  top: 400px;
+  left: 940px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: papayawhip;
+}
+
+.email {
+  position: absolute;
+  top: 500px;
+  left: 920px;
+  width: 200px;
+  height: 200px;
+  border-right: 1px dotted silver;
+  border-left: 1px dotted silver;
+  background-color: mediumturquoise;
+  border-radius: 50%;
+  padding: 20px;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+}
+
+.bullet {
+  font-size: 12px;
+  color: turquoise;
+}
+
+
+/*#footer {
+  bottom:0;
+  width:100%;
+  height:20px;
+  background:black;
+}
+*/
