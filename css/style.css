@@ -12,6 +12,24 @@ p {
   top: 30px;
 }
 
+p.about {
+  position: relative;
+  left: 42px;
+  top: 40px;
+}
+
+p.projects {
+  position: relative;
+  left: 32px;
+  top: 40px;
+}
+
+p.work {
+  position: relative;
+  left: 26px;
+  top: 40px;
+}
+
 a {
   position: absolute;
   top: 80px;
@@ -27,7 +45,7 @@ a:hover {
 
 .circles {
   position: absolute;
-  top: -50px;
+  top: 10px;
   left: 20px;
 }
 
@@ -38,12 +56,27 @@ a:hover {
 
 
 hr.style-two {
+  position: relative;
+  top:280px;
   border: 0;
   height: 1px;
   background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.tagline {
+  position: absolute;
+  top: 10px;
+  left: 420px;
+  height: 50px;
+  width: 340px;
+  font-family: lato, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  color: darkturquoise;
 }
 
 .border {
@@ -83,21 +116,9 @@ hr.style-two {
   background-color:darkturquoise;
 }
 
-.about-description-intro {
-  position: absolute;
-  top: 230px;
-  left: 135px;
-  width: 200px;
-  font-family: lato, sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 20px;
-  color: darkturquoise;
-}
-
 .about-description {
   position: absolute;
-  top: 315px;
+  top: 285px;
   left: 135px;
   width: 200px;
   font-family: lato, sans-serif;
@@ -120,7 +141,7 @@ hr.style-two {
 
 .project-one {
   position: absolute;
-  top: 245px;
+  top: 300px;
   left: 410px;
   height: 125px;
   width: 375px;
@@ -134,7 +155,7 @@ hr.style-two {
 
 .project-one-title {
   position: absolute;
-  top: 275px;
+  top: 315px;
   left: 470px;
   height: 125px;
   width: 375px;
@@ -145,7 +166,7 @@ hr.style-two {
 
 .project-one-description {
   position: absolute;
-  top: 295px;
+  top: 335px;
   left: 470px;
   height: 125px;
   width: 300px;
@@ -156,7 +177,7 @@ hr.style-two {
 
 .project-two {
   position: absolute;
-  top: 400px;
+  top: 440px;
   left: 410px;
   height: 145px;
   width: 375px;
@@ -170,7 +191,7 @@ hr.style-two {
 
 .project-two-title {
   position: absolute;
-  top: 425px;
+  top: 455px;
   left: 470px;
   height: 125px;
   width: 375px;
@@ -179,7 +200,7 @@ hr.style-two {
 
 .project-two-description {
   position: absolute;
-  top: 445px;
+  top: 475px;
   left: 470px;
   height: 125px;
   width: 300px;
@@ -190,7 +211,7 @@ hr.style-two {
 
 .project-three {
   position: absolute;
-  top: 540px;
+  top: 575px;
   left: 410px;
   height: 145px;
   width: 375px;
@@ -200,7 +221,7 @@ hr.style-two {
 
 .project-three-title {
   position: absolute;
-  top: 570px;
+  top: 600px;
   left: 470px;
   height: 125px;
   width: 375px;
@@ -209,7 +230,7 @@ hr.style-two {
 
 .project-three-description {
   position: absolute;
-  top: 590px;
+  top: 620px;
   left: 470px;
   height: 125px;
   width: 300px;
@@ -248,7 +269,7 @@ hr.style-two {
 
 .tech-skills-intro {
   position: absolute;
-  top: 245px;
+  top: 300px;
   left: 975px;
   font-family: lato, sans-serif;
   font-weight: 100;
@@ -259,7 +280,7 @@ hr.style-two {
 
 .tech-skills-backend {
   position: absolute;
-  top: 300px;
+  top: 340px;
   left: 900px;
   font-family: lato, sans-serif;
   font-weight: 400;
@@ -270,7 +291,7 @@ hr.style-two {
 
 .tech-skills-frontend {
   position: absolute;
-  top: 350px;
+  top: 390px;
   left: 900px;
   font-family: lato, sans-serif;
   font-weight: 400;
@@ -281,7 +302,7 @@ hr.style-two {
 
 .other-skills {
   position: absolute;
-  top: 400px;
+  top: 440px;
   left: 940px;
   font-family: lato, sans-serif;
   font-weight: 400;
