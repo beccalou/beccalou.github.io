@@ -1,10 +1,36 @@
-body {
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
   background-color: dimgray;
   font-family: lato, sans-serif;
   font-size: 200;
   font-style: normal;
   color: papayawhip;
 }
+
+/*#page-wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+#header {
+  padding:10px;
+}
+
+#content {
+  padding:10px;
+  padding-bottom:80px;   /* Height of the footer element */
+}*/
+
+/*#footer {
+  width:100%;
+  height:80px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background:#ee5;
+}*/
 
 p {
   position: relative;
@@ -54,7 +80,6 @@ a:hover {
   top: -280px;*/
 }
 
-
 hr.style-two {
   position: relative;
   top:280px;
@@ -73,7 +98,7 @@ hr.style-two {
   height: 50px;
   width: 390px;
   font-family: lato, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
   font-size: 20px;
   color: darkturquoise;
@@ -122,7 +147,7 @@ hr.style-two {
   left: 135px;
   width: 200px;
   font-family: lato, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
   font-size: 25px;
 }
@@ -133,7 +158,7 @@ hr.style-two {
   left: 135px;
   width: 250px;
   font-family: lato, sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
   font-size: 20px;
   color: darkturquoise;
@@ -150,7 +175,7 @@ hr.style-two {
 }
 
 .project-one:hover {
-  background-image: url("Project One.png");
+  background-image: url("../images/Project One.png");
 }
 
 .project-one-title {
@@ -186,7 +211,7 @@ hr.style-two {
 }
 
 .project-two:hover {
-  background-image: url("Project Three.png");
+  background-image: url("../images/Project Two.png");
 }
 
 .project-two-title {
@@ -240,7 +265,7 @@ hr.style-two {
 }
 
 .project-three:hover {
-  background-image: url("Project Two.png");
+  background-image: url("../images/Project Three.png");
 }
 
 .circle-dotted-projects {
@@ -334,10 +359,3 @@ hr.style-two {
 }
 
 
-/*#footer {
-  bottom:0;
-  width:100%;
-  height:20px;
-  background:black;
-}
-*/
