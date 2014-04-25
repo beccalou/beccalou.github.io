@@ -174,9 +174,9 @@ hr.style-two {
   background-repeat: no-repeat;
 }
 
-.project-one:hover {
+/*.project-one:hover {
   background-image: url("../images/Project One.png");
-}
+}*/
 
 .project-one-title {
   position: absolute;
@@ -210,9 +210,9 @@ hr.style-two {
   background-repeat: no-repeat;
 }
 
-.project-two:hover {
+/*.project-two:hover {
   background-image: url("../images/Project Two.png");
-}
+}*/
 
 .project-two-title {
   position: absolute;
@@ -264,9 +264,9 @@ hr.style-two {
   color: papayawhip;
 }
 
-.project-three:hover {
+/*.project-three:hover {
   background-image: url("../images/Project Three.png");
-}
+}*/
 
 .circle-dotted-projects {
   height: 145px;
