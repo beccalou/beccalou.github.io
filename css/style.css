@@ -94,14 +94,14 @@ hr.style-two {
 
 .tagline {
   position: absolute;
-  top: 10px;
-  left: 420px;
+  top: 1px;
+  left: 290px;
   height: 50px;
-  width: 390px;
+  width: 700px;
   font-family: lato, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 20px;
+  font-size: 40px;
   color: darkturquoise;
 }
 
@@ -370,9 +370,13 @@ hr.style-two {
   display: inline-block;
   vertical-align: top;
   top: 620px;
-  left: 1000px;
+  left: 990px;
   width: 200px;
   height: 100px;
+}
+
+.connect-icons a {
+  margin-right: 5px;
 }
 
 .bullet {
