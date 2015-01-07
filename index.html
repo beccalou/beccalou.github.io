@@ -1,76 +1,123 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>I'm Becky, Nice to Meet You</title>
-  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-  <script src="http://use.edgefonts.net/lato:n1,i1,n3,i3,n4,i4,n7,i7,n9,i9:all.js"></script>
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title></title>
+  <link rel="stylesheet" type="" href="reset.css">
+  <link rel="stylesheet" type="" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
 </head>
 <body>
-  <div id="page-wrapper">
-    <div id="header">
-      <div class="circles">
-      <p class="tagline">Hi. I'm Becky, a full stack Rails developer.</p>
-        <div class="circle-dotted-about container align">
-          <p class="border"></p>
-          <p class="about">ABOUT</p>
-        </div>
-
-        <div class="circle-dotted-projects container align">
-          <p class="border-projects"></p>
-          <p class="projects">PROJECTS</p>
-        </div>
-
-        <div class="circle-dotted-work container align">
-          <p class="border"></p>
-          <p class="work">LET'S WORK</p>
-        </div>
-      </div>
-    </div>
-    <div id="content">
-      <div class="hr-position">
-        <hr class="style-two">
-      </div>
-     <div>
-      <p class="about-description-intro"><p><p class="about-description">My goal is to inspire action and create amazing tools (with cool people, of course) that empower and encourage people to live better. <p class="about-description-outro">How about you?</p>
-     </div>
-
-      <div>
-        <p class="project-one"></p>
-        <p class="project-one-title">Representin'<span class="bullet"> &#8226; </span> <em>representin.herokuapp.com</em></p>
-        <p class="project-one-description">Find your congressional reps' social media contact information and connect with them on pending legislation that matters to you.</p>
-      </div>
-
-      <div>
-        <p class="project-two"></p>
-        <p class="project-two-title">KarmaForge<span class="bullet"> &#8226; </span><em>karmaforge.herokuapp.com</em></p>
-        <p class="project-two-description">Generate good karma for your community by donating your old things.</p>
-      </div>
-
-      <div>
-        <p class="project-three"></p>
-        <p class="project-three-title">FamilyMediReady<span class="bullet"> &#8226; </span><em>familymediready.herokuapp.com</em></p>
-        <p class="project-three-description">Stay as healthy as you can for as long as you can-- keep an eye on the illnesses in your family by tracking medical history.</p>
-      </div>
-
-      <div>
-        <p class="tech-skills-intro">I know some:</p>
-        <p class="tech-skills-backend">Ruby <span class="bullet"> &#8226; </span> Rails <span class="bullet"> &#8226; </span> PostgreSQL</p>
-        <p class="tech-skills-frontend">HTML5 <span class="bullet"> &#8226; </span> CSS3 <span class="bullet"> &#8226; </span> JavaScript</p>
-        <p class="other-skills">TDD<span class="bullet"> &#8226; </span> Git <span class="bullet"> &#8226; </span> Heroku</p>
-        <div class="email"><p class="email-text"><a href="mailto:rlbell@alum.bu.edu">CONNECT</a></p></div>
-        <p class="work-together">and let's work together</p>
-          <div class="connect-icons">
-            <a href="mailto:rlbell@alum.bu.edu"><img src="images/email.png"/></a>
-            <a href="http://www.linkedin.com/in/rebeccalbell"><img src="images/linkedin.png"/></a>
-            <a href="https://github.com/beccalou"><img src="images/github.png"/></a>
-          </div>
-       </div>
-    </div> <!-- end of content div -->
-
-    <footer id="footer">
-      <!-- <p>Becky Bell</p> -->
-    </footer> <!-- end of footer div -->
-  </div> <!-- end of page-wrapper div -->
+  <div id="wrap">
+    <div id="header"></div>
+      <div id="main">
+        <div class="section group">
+          <div class="col span_1_of_2">
+            <div class="mobile">
+              <div id="mobile-navigation-bars">
+                <img id="mobile-navigation-image"src="images/navigation-bars.png">
+              </div> <!-- closes div with id moblile-navigation-bars -->
+              <ul id="mobile-navigation">
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="learn-to-code.html">LEARN TO CODE</a></li>
+                <li><a href="about-monkey.html">ABOUT THE MONKEY</a></li>
+                <li><a href="about-me.html">ABOUT ME</a></li>
+              </ul>
+            </div> <!-- closes div with id mobile -->
+            <div id="welcomeblock">
+              <h1 id="welcome">Welcome,</h1>
+              <h1>Curious.</h1>
+            </div>  <!-- closes div with id welcomeblock -->
+          </div> <!-- closes div with id col span_1_of_2 -->
+          <div class="col span_1_of_2">
+            <div id="getstartedblock">
+              <p class="find-a-monkey">You have an idea. Congrats!</p>
+              <p class="find-a-monkey">Let's develop a prototype.</p>
+              <p id="call-to-action">Get Started</p>
+              <div id="contact">
+                <a href="mailto:rlbell@alum.bu.edu?subject=Prototype for My Web Application" id="email">Email</a>
+              </div> <!-- closes div with id contact -->
+            </div> <!-- closes div with id getstartedblock -->
+            <div id="businesscard">
+              <p id="firstname">BECKY</p>
+              <p id="lastname">BELL</p>
+              <hr>
+              <p id="developer">Ruby on Rails Developer</p>
+              <p>among other fun and fabulous things</p>
+            </div> <!-- closes div with id businesscard -->
+          </div> <!-- closes div with id col span_1_of_2 -->
+        </div> <!-- closes div with ids section group -->
+        <div id="project-heading">
+          <h1>Rails Projects</h1>
+        </div> <!-- closes div with id project-heading -->
+        <div class="section group">
+          <div class="col span_1_of_3 project-one">
+            <h2>Representin'</h2>
+            <p>Find your congressional reps' social media contact information and connect with them on pending legislation that matters to you.</p>
+            <a href="http://representin.herokuapp.com">View Representin'</a>
+          </div> <!--closes div with id project-one -->
+          <div class="col span_1_of_3 project-two">
+            <h2>KarmaForge</h2>
+            <p>Generate good karma for your community by donating your old things.</p>
+            <a href="http://karmaforge.herokuapp.com">View KarmaForge</a>
+          </div> <!--closes div with id project-two -->
+          <div class="col span_1_of_3 project-three">
+            <h2>FamilyMediReady</h2>
+            <p>Stay as healthy as you can-- keep an eye on the illnesses that run in your family by tracking everyones medical history.</p>
+            <a href="http://familymediready.herokuapp.com">View FamilyMediReady</a>
+          </div> <!-- closes div with id project-three -->
+          </div> <!--closes div with id section group -->
+          <div class="section group">
+            <div class="col span_1_of_2 about-me">
+              <h2>About Me</h2>
+              <p>Boston-based developer, calligrapher, yogi, baker, traveler, new Jack Russell Terrier guardian</p>
+              <div class="connect-icons">
+                <a href="mailto:rlbell@alum.bu.edu"><img src="images/email.png"/></a>
+                <a href="http://www.linkedin.com/in/rebeccalbell"><img src="images/linkedin.png"/></a>
+                <a href="https://github.com/beccalou"><img src="images/github.png"/></a>
+              </div> <!-- closes div with id connect-icons -->
+            </div> <!-- closes div with id about-me -->
+            <div class="col span_1_of_2 about-monkey">
+              <h2>About the Monkey</h2>
+              <p>Food thief and general miscreant living in the mountains of Luang Prabang, Laos</p>
+            </div> <!-- closes div with id about-monkey -->
+          </div> <!-- closes div with ids section group -->
+          <div class="section group">
+            
+          </div><!-- closes div with ids section group -->
+      </div> <!-- closes div with id main -->
+  </div> <!-- closes div with id wrap -->
+  <div id="footer">
+    <p><a href="mailto:rlbell@alum.bu.edu">Let's Work Together</a></p>
+    <!-- <ul>
+      <li class="projects"><a class="navigation" href="projects.html">PROJECTS</a> -->
+        <!-- <div id="project-list">
+          <p><a href="representin.herokuapp.com">Representin'</a></p>
+          <p><a href="familymediready.herokuapp.com">FamilyMediReady</a></p>
+          <p><a href="karmaforge.herokuapp.herokuapp.com">KarmaForge</a></p>
+        </div> -->
+      <!-- </li>
+      <li class="learn"><a class="navigation" href="learn-to-code.html">LEARN TO CODE</a> -->
+        <!-- <div id= "learn-to-code">
+          <p>Coming Feb. 2015</p>
+        </div> -->
+      <!-- </li>
+      <li class="monkey"><a class="navigation" href="about-monkey.html">ABOUT THE MONKEY</a> -->
+        <!-- <div id="about-the-monkey">
+          <p>Food thief living in the mountains of Laos.</p>
+        </div> -->
+      <!-- </li>
+      <li class="me"><a class="navigation" href="about-me.html">ABOUT ME</a> -->
+        <!-- <div id="about-me">
+          <p>Boston based developer, calligrapher, yogi, baker, traveler, friend</p>
+        </div> -->
+      <!-- </li>
+    </ul> -->
+  </div> <!-- closes div with id footer -->
 </body>
 </html>
