@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-  background: url(images/Little_Laotian_Monkey.jpg);
+  background-image: url('../images/Little_Laotian_Monkey.jpg');
   background-size: 100% 700px;
   background-repeat: no-repeat;
   color: #ffeeee;
@@ -118,9 +118,9 @@ li a {
   position: relative;
   vertical-align: top;
   float: left;
-  height: 239px;
+  height: 257px;
   width: auto;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
@@ -191,9 +191,7 @@ li a {
 #call-to-action {
   font-family: 'Lobster', cursive;
   font-size: 4em;
-  color: #aa9988;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  color: #aa9988; 
   text-align: center;
 }
 
@@ -461,22 +459,6 @@ li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Opera Fix*/
 /*body:before {
   content:"";
@@ -645,7 +627,7 @@ li a {
   /*overflow:auto;*/
   /*overflow-x: hidden;
   overflow-y: hidden;*/
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     padding-bottom: 150px;
     height: 150px;
   }
