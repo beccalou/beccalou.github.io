@@ -431,20 +431,14 @@ a {
 
 /* NON-GRID RELATED MEDIA QUERIES */
 
-@media only screen and (max-width: 1921px) {
-  #getstartedblock {
-    padding-left: 0;
-  }
-
-  #businesscard {
-
-  }
-}
-
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
 
   body {
     background-size: 100% 500px;
+  }
+
+  #welcome {
+    font-size: 6em;
   }
 }
 
