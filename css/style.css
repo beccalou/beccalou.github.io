@@ -16,6 +16,10 @@ body {
   background-repeat: no-repeat;
   color: #ffeeee;
   font-family: 'Montserrat', sans-serif;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
 }
 
 h1 {
@@ -47,68 +51,10 @@ p a {
   font-size: .95em;
 }
 
-ul {
-  list-style-type: none;
-  text-align: center;
-}
-
-li {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  display: inline;
-  padding: 1em;
-  color: #aa9988;
-}
-
-/*hr {
-    height: 30px;
-    margin-top: 25px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-}*/
-
-/* */ /* Not really supposed to work, but does */
-    /*display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;    
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-}*/
-
 a {
   text-decoration: none;
   color: white;
 }
-
-li a {
-  color: #aa9988;
-}
-
-#wrap {
-  min-height: 100%;
-}
-
-#main {
-  /*overflow:auto;*/
-  /*overflow-y:hidden;
-  overflow-x:hidden;*/
-  padding-top: 60px;
-  padding-bottom: 150px;
-  height: 150px;
-  }  /* must be same height as the footer */
-
-#footer {
-  position: relative;
-  margin-top: -150px; /* negative value of footer height */
-  height: 150px;
-  clear:both;
-} 
 
 #developer {
   padding: -8px;
@@ -234,51 +180,83 @@ li a {
   color: #ddbbaa;
 }
 
-#project-list {
-  position: absolute;
-  margin-left: 350px;
-  padding-top: 10px;
-  padding-left: 5px;
-  height: 100px;
-  width: 120px;
-  background-color: #eeeeee;
+  /*  SECTIONS  */
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
-#learn-to-code {
-  position: absolute;
-  height: 100px;
-  width: 120px;
-  margin-left: 480px;
-  padding-top: 10px;
-  padding-left: 10px;
-  background-color: #eeeeee;
+/*  COLUMN SETUP  */
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
 
-#about-the-monkey {
-  position: absolute;
-  height: 100px;
-  width: 120px;
-  margin-left: 650px;
-  padding-top: 10px;
-  background-color: #eeeeee;
+.col:first-child { 
+  margin-left: 0; 
 }
 
-#about-me {
-  position: absolute;
-  height: 100px;
-  width: 120px;
-  margin-left: 820px;
-  padding-top: 10px;
-  padding-left: 10px;
-  background-color: #eeeeee;
+
+/*  GROUPING  */
+
+.group:before,
+.group:after {
+  content:"";
+  display:table;
 }
+
+.group:after {
+  clear:both;
+}
+
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+.span_2_of_2 {
+  width: 100%;
+}
+
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  /*overflow:auto;*/
+  /*overflow-y:hidden;
+  overflow-x:hidden;*/
+  padding-top: 60px;
+  padding-bottom: 150px;
+  height: 150px;
+  }  /* must be same height as the footer */
+
+#footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+} 
+
+/*Opera Fix*/
+/*body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;/
+}*/
+
 
 /* PROJECTS SECTION */
 
-/*#railsbackground {
- height: 400px;
- background-color: tomato; 
-}*/
 
 #project-heading h1 {
   font-family: 'Montserrat', sans-serif;
@@ -320,7 +298,6 @@ li a {
   width: 100%;
   padding-top: 350px;
   padding-left: 45px;
-/*  background-color: #eeeeee;*/
   opacity: .5;
 }
 
@@ -355,66 +332,6 @@ li a {
   padding-bottom: 80px;
 }
 
-
-/* ABOUT SECTION */
-
-.about-me h2, .about-monkey h2 {
-  text-align: center;
-  font-size: 1.5em;
-  padding-top: 20px;
-  color: #333;
-}
-
-.about-monkey h2 {
-  color: #eecc99;
-}
-
-.about-me  {
-  height: 200px;
-  width: 500px;
-  background: url('brillant.png');
-  padding-bottom: 50px;
-}
-
-.connect-icons {
-  padding-left: 257px;
-}
-
-.connect-icons a {
-  margin-right: 15px;
-}
-
-
-.about-me p, .about-monkey p {
-  height: 80px;
-  width: 200px;
-  font-family: sans-serif;
-  text-align: left;
-  padding-top: 0px;
-  padding-bottom: 15px;
-  padding-left: 220px;
-  padding-right: 40px;
-}
-
-.about-monkey p {
-  color: #eecc99;
-}
-
-.about-monkey {
-  height: 250px;
-  width: 100%;
-  background: url('dark_wood_@2X.png');
-}
-
-#footer p {
-  height: 50px;
-  width: 550px;
-  border: 1px solid #333;
-  text-align: center;
-  padding-top: 30px; 
-  margin-left: 350px;
-}
-
 /*  GRID OF THREE  */
 .span_3_of_3 {
   width: 100%;
@@ -444,6 +361,94 @@ li a {
   .span_1_of_3 {
     width: 100%;
   }
+}
+
+
+/* ABOUT SECTION */
+
+
+.about-me h2, .about-monkey h2 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 20px;
+  color: #333;
+}
+
+.about-monkey h2 {
+  color: #eecc99;
+}
+
+.about-me  {
+  height: 200px;
+  background: url('brillant.png');
+  padding-bottom: 50px;
+}
+
+.connect-icons {
+  padding-left: 257px;
+}
+
+.connect-icons a {
+  margin-right: 15px;
+}
+
+.about-me p, .about-monkey p {
+  height: 80px;
+  width: 200px;
+  font-family: sans-serif;
+  text-align: left;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  padding-left: 220px;
+  padding-right: 40px;
+}
+
+.about-monkey {
+  height: 200px;
+  background: url('dark_wood_@2X.png');
+  padding-bottom: 50px;
+}
+
+.about-monkey p {
+  color: #eecc99;
+}
+
+#footer p {
+  height: 50px;
+  width: 550px;
+  border: 1px solid #333;
+  text-align: center;
+  padding-top: 30px; 
+  margin-left: 350px;
+}
+
+
+
+
+
+
+
+
+/* NON-GRID RELATED MEDIA QUERIES */
+
+@media only screen and (max-width: 1921px) {
+  #getstartedblock {
+    padding-left: 0;
+  }
+
+  #businesscard {
+
+  }
+}
+
+@media only screen and (max-width: 320px) {
+
+  body {
+    background-size: 100% 500px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
 
   h1 {
     text-align: center;
@@ -462,61 +467,6 @@ li a {
   }
 }
 
-
-/*Opera Fix*/
-/*body:before {
-  content:"";
-  height:100%;
-  float:left;
-  width:0;
-  margin-top:-32767px;/
-}*/
-
-  /*  SECTIONS  */
-  .section {
-    clear: both;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  /*  COLUMN SETUP  */
-  .col {
-    display: block;
-    float:left;
-    margin: 1% 0 1% 1.6%;
-  }
-  .col:first-child { margin-left: 0; }
-
-
-/*  GROUPING  */
-  .group:before,
-  .group:after {
-    content:"";
-    display:table;
-  }
-  .group:after {
-    clear:both;
-  }
-  .group {
-      zoom:1; /* For IE 6/7 */
-  }
-
-  .span_2_of_2 {
-    width: 100%;
-  }
-
-  .span_1_of_2 {
-    width: 49.2%;
-  }
-
-/* HIDE MOBILE NAVIGATON ELEMENTS FOR DESKTOP DISPLAY  */
-@media only screen and (min-width: 481px) and (max-width: 1500px) {
-
-  .mobile {
-    display: none;
-  }
-  
-}
 
 /*  GO FULL WIDTH AT 768 PIXELS */
 
@@ -537,10 +487,6 @@ li a {
   blockquote {
     display: none;
   }
-
-  /*#mobile-header {
-    visibility: hidden;
-  }*/
 
   .mobile {
     display: none;
@@ -705,6 +651,11 @@ li a {
     font-size: .6em;
   }
 
+  #project-heading {
+    margin: 0;
+    padding-top: 0px;
+  }
+
   .about-me {
     background-size: 100% 150px;
     width: 10px;
@@ -733,10 +684,5 @@ li a {
     width: 200px;
   }
 }
-/*
-PAGES:  Learn to Code*/
 
-h1 {
-  font-family: Arial;
-}
 
