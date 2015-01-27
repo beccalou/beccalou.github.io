@@ -236,7 +236,7 @@ a {
   padding-top: 60px;
   padding-bottom: 150px;
   height: 150px;
-  }  /* must be same height as the footer */
+}  /* must be same height as the footer */
 
 #footer {
   position: relative;
@@ -380,7 +380,7 @@ a {
   color: #eecc99;
 }
 
-.about-me  {
+.about-me {
   height: 200px;
   background: url('brillant.png');
   padding-bottom: 50px;
@@ -415,6 +415,8 @@ a {
   color: #eecc99;
 }
 
+/* FOOTER */
+
 #footer p {
   height: 50px;
   width: 550px;
@@ -422,6 +424,11 @@ a {
   text-align: center;
   padding-top: 30px; 
   margin-left: 350px;
+}
+
+#footer {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
